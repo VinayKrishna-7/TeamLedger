@@ -1,0 +1,25 @@
+{
+  "name": "teamledger-server",
+  "version": "1.0.0",
+  "description": "Backend API for TeamLedger - Shared expense tracking and smart settlement calculation",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/seed.js",
+    "test": "node --test test/**/*.test.js"
+  },
+  "keywords": ["expense-tracker", "settlement-algorithm", "mern", "teamledger"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "teamledger",
+  "version": "1.0.0",
+  "description": "Shared expense tracking and smart debt settlement application",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server test",
+    "build:client": "npm --prefix client run build"
+  },
+  "keywords": ["expense-tracker", "settlement-algorithm", "mern", "splitwise-alternative", "teamledger"],
+  "author": "",
+  "license": "ISC"
+}
